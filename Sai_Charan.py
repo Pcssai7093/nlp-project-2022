@@ -1,8 +1,5 @@
 def genBigrams(i):
     str=[]
-    firstLast=''
-    firstLast=i[len(i)-1]+i[0]
-    str.append(firstLast)
     for j in range(0,len(i)-1):
             str.append(i[j:j+2])
     return str

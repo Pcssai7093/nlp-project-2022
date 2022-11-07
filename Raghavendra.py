@@ -30,8 +30,9 @@ def my_ranker(ranks):
                 t=x
         else:
             break
+    # print (t)
     return t[0]
-
+# అంజేలిగుంజేలి
 
 ranks=[['abc','bcda','cdfh'],['dedhg','edde','cdfh'],['sdfg','dedhg','aedh','abc']]
 
