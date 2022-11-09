@@ -22,8 +22,8 @@ def my_ranker(ranks):
                 i=i+1
 
     ordered.remove([0,0])
-    t=[ordered[0][0],ordered[0][1]]
-
+    t=[ordered[0][0],ordered[0][1],ordered[1][0],ordered[1][1],ordered[2][0],ordered[2][1]]
+    # print (t)
     for x in ordered:
         if(x[1]==t[1]):
             if(len(x[0])<len(t[0])):
@@ -32,9 +32,6 @@ def my_ranker(ranks):
             break
     # print (t)
     return t[0]
-# అంజేలిగుంజేలి
-
-ranks=[['abc','bcda','cdfh'],['dedhg','edde','cdfh'],['sdfg','dedhg','aedh','abc']]
 
 
 
