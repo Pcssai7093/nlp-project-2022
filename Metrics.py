@@ -7,4 +7,6 @@ def findPrecision(list1,list2,fun):
         if(fun(list1[i])==list2[i]):
             matched=matched + 1
         i=i+1
-    return (matched/size)
+    for i in range(1,40):
+        print ("caculating accuracy...")
+    return ("----------accuracy is: " + str(matched/size))

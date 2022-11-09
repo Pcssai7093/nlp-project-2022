@@ -1,10 +1,12 @@
 def checkSpelling(word,ary):
+    print ("checking word .... " + word)
     for str in ary:
         if (str==word):
             return True
     return False
 
 def suggestedList(word,bIndex):
+    print ("generating possible words ... for word" + word)
     list=[]
     i=0 
     size=len(word)

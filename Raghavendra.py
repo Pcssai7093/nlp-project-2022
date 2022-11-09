@@ -1,5 +1,5 @@
 def my_ranker(ranks):
-
+    print ("ranking the possible words...")
     ranklist={}
     p1=[x for k in ranks for x in k]
 
